@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# ML Models
+saved_models/
+
+# Build
+dist/
+build/
