@@ -44,7 +44,7 @@ function PredictEvent() {
     };
 
     try {
-      const response = await fetch("https://traffic-intelligence-platform-lt94.onrender.com/predict", {
+      const response = await fetch("https://traffic-intelligence-platform-1.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

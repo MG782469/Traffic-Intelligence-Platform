@@ -7,7 +7,7 @@ function PlannedEvents() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    fetch("https://traffic-intelligence-platform-lt94.onrender.com/api/events")
+    fetch("https://traffic-intelligence-platform-1.onrender.com/api/events")
       .then((res) => res.json())
       .then((data) => setEvents(data))
       .catch((err) => console.error(err));

@@ -8,7 +8,7 @@ function ControlRoom() {
 
   useEffect(() => {
 
-    fetch("https://traffic-intelligence-platform-lt94.onrender.com/api/control-room")
+    fetch("https://traffic-intelligence-platform-1.onrender.com/api/control-room")
       .then((res) => res.json())
       .then((data) => {
         setIncidents(data);
