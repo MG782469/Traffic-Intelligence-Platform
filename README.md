@@ -1,4 +1,4 @@
-# 🚦 GridLock AI
+# GridLock AI
 
 ### Bengaluru Event Intelligence & Predictive Traffic Management Platform
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Bengaluru is one of India's fastest-growing metropolitan cities and faces significant traffic challenges due to large public events, VIP movements, religious gatherings, infrastructure projects, road closures, accidents, and emergencies.
 
@@ -16,7 +16,7 @@ There is a growing need for an intelligent system that can predict traffic disru
 
 ---
 
-## 🌟 Solution Overview
+## Solution Overview
 
 **GridLock AI** is an AI-powered Event Intelligence and Operational Traffic Management Platform designed specifically for Bengaluru Traffic Police and urban traffic authorities.
 
@@ -26,7 +26,7 @@ By analyzing event characteristics, historical traffic patterns, operational dat
 
 ---
 
-## 🌆 Bengaluru Traffic Intelligence Platform
+## Bengaluru Traffic Intelligence Platform
 
 GridLock AI is tailored for Bengaluru's complex urban traffic ecosystem.
 
@@ -44,9 +44,9 @@ The solution is designed to support daily traffic operations as well as high-imp
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 📊 Intelligent Dashboard
+### Intelligent Dashboard
 
 A centralized command center providing:
 
@@ -60,7 +60,7 @@ A centralized command center providing:
 
 ---
 
-### 📅 Planned Events Management
+### Planned Events Management
 
 View and manage:
 
@@ -75,7 +75,7 @@ This enables authorities and commuters to prepare before disruption occurs.
 
 ---
 
-### 🤖 AI Impact Prediction Engine
+### AI Impact Prediction Engine
 
 The platform's core intelligence module predicts:
 
@@ -90,7 +90,7 @@ Authorities can evaluate risks before congestion escalates.
 
 ---
 
-### 🚓 Smart Area Triaging
+### Smart Area Triaging
 
 Automatically identifies:
 
@@ -103,7 +103,7 @@ This significantly improves emergency coordination and resource allocation.
 
 ---
 
-### 🎯 Smart Route Recommendation
+### Smart Route Recommendation
 
 Based on predicted traffic conditions, the system recommends:
 
@@ -118,7 +118,7 @@ Helping maintain smoother traffic flow around impacted areas.
 
 ---
 
-### 🏢 Control Room Operations
+### Control Room Operations
 
 Designed for traffic command centers, enabling:
 
@@ -133,7 +133,7 @@ Ensuring efficient field coordination during high-impact situations.
 
 ---
 
-### 📈 Analytics & Forecasting
+### Analytics & Forecasting
 
 Generate long-term insights through:
 
@@ -146,7 +146,7 @@ Generate long-term insights through:
 
 ---
 
-## 🧠 Machine Learning Architecture
+## Machine Learning Architecture
 
 GridLock AI utilizes a stacked ensemble architecture for accurate risk prediction.
 
@@ -176,7 +176,7 @@ This architecture generates reliable probability estimates for traffic disruptio
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 <p align="center">
   <img src="site_architecture/Architecture-2.png" alt="GridLock AI Architecture" width="1000">
@@ -195,7 +195,7 @@ This architecture generates reliable probability estimates for traffic disruptio
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -231,7 +231,7 @@ This architecture generates reliable probability estimates for traffic disruptio
 
 ---
 
-## 🎯 Impact
+## Impact
 
 GridLock AI enables authorities to:
 
@@ -253,7 +253,7 @@ GridLock AI enables authorities to:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Real-Time GPS Traffic Integration
 * CCTV Video Analytics
@@ -266,9 +266,9 @@ GridLock AI enables authorities to:
 
 ---
 
-## 👨‍💻 Team
+## Team
 
-Developed as part of Bharat Academix CodeQuest 2026 to demonstrate how Artificial Intelligence can support smarter traffic management, operational efficiency, and urban mobility in Bengaluru.
+Developed as part of Flipkart Gridlock Hackathon 2.0 to demonstrate how Artificial Intelligence can support smarter traffic management, operational efficiency, and urban mobility in Bengaluru.
 
 ---
 
