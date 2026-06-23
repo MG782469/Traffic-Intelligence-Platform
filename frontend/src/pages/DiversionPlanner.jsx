@@ -9,6 +9,7 @@ function RoutePlanner() {
     to: "",
     vehicle: "Car",
     departure: "Now",
+    preference: "Least Congested",
   });
 
   const inputStyle = {
@@ -26,6 +27,13 @@ function RoutePlanner() {
       ...form,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const handleGenerateRoute = async () => {
+    // ⚠️ YAHAN APNA EXISTING API CODE HI RAKHNA
+    // Sirf showResult true kar raha hu demo ke liye
+
+    setShowResult(true);
   };
 
   return (
@@ -56,12 +64,12 @@ function RoutePlanner() {
             color: "#64748B",
           }}
         >
-          Avoid congestion using ML-powered event intelligence and receive the
-          safest recommended route.
+          Plan efficient journeys by avoiding blocked roads,
+          congested corridors and event-affected areas.
         </p>
       </div>
 
-      {/* Planner Form */}
+      {/* Form */}
       <div
         style={{
           background: "#FFFFFF",
@@ -105,6 +113,7 @@ function RoutePlanner() {
 
           <div>
             <label>Vehicle Type</label>
+
             <select
               name="vehicle"
               style={inputStyle}
@@ -121,6 +130,7 @@ function RoutePlanner() {
 
           <div>
             <label>Departure Time</label>
+
             <select
               name="departure"
               style={inputStyle}
@@ -133,10 +143,25 @@ function RoutePlanner() {
               <option>Later Today</option>
             </select>
           </div>
+
+          <div style={{ gridColumn: "span 2" }}>
+            <label>Route Preference</label>
+
+            <select
+              name="preference"
+              style={inputStyle}
+              value={form.preference}
+              onChange={handleChange}
+            >
+              <option>Least Congested</option>
+              <option>Fastest</option>
+              <option>Shortest Distance</option>
+            </select>
+          </div>
         </div>
 
         <button
-          onClick={() => setShowResult(true)}
+          onClick={handleGenerateRoute}
           style={{
             marginTop: "24px",
             background: "#2563EB",
@@ -153,10 +178,9 @@ function RoutePlanner() {
         </button>
       </div>
 
-      {/* Results */}
+      {/* Result */}
       {showResult && (
         <>
-          {/* Success Banner */}
           <div
             style={{
               marginTop: "24px",
@@ -168,11 +192,14 @@ function RoutePlanner() {
               fontWeight: "600",
             }}
           >
-            ✅ Route successfully generated using predicted event impact and
-            traffic intelligence.
+            ✅ Route generated successfully using current
+            network conditions and corridor analysis.
           </div>
 
-          <TravelRecommendationCard />
+          {/* Existing API response yahan pass karna */}
+          <TravelRecommendationCard
+            destination={form.to}
+          />
         </>
       )}
     </div>
