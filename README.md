@@ -272,12 +272,12 @@ Developed as part of Flipkart Gridlock Hackathon 2.0 to demonstrate how Artifici
 
 ---
 
-## 📜 License
+## License
 
 This project is developed for educational, research, and innovation purposes as part of a hackathon submission.
 
 ---
 
-# 🚀 Predict. Plan. Prevent Congestion.
+# Predict. Plan. Prevent Congestion.
 
 ### GridLock AI — Smarter Traffic Starts Before the Jam.
